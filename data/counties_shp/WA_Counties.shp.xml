@@ -1,0 +1,1741 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Washington Department of Ecology</origin>
+				<pubdate>1999</pubdate>
+				<title Sync="TRUE">Counties_Clip</title>
+				<edition>1</edition>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<serinfo>
+					<sername>POCA</sername>
+					<issue>Washington State land survey</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Olympia, Washington</pubplace>
+					<publish>Washington Department of Ecology</publish>
+				</pubinfo>
+				<onlink Sync="TRUE">\\AGRWK6729T\C$\GIS\WSDA_GIS\CommonData\Boundaries\Counties_Clip.shp</onlink>
+				<ftname Sync="TRUE">Counties_Clip</ftname>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>Washington state county boundaries</abstract>
+			<purpose>Base map of county boundaries for cartographic products.</purpose>
+			<supplinf>Created from Washington State Department of Natural Resources Public land survey/Ownership/County/Administration (POCA) coverage.</supplinf>
+			<langdata Sync="TRUE">en</langdata>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>1998</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-124.926702</westbc>
+				<eastbc Sync="TRUE">-116.708501</eastbc>
+				<northbc Sync="TRUE">49.049340</northbc>
+				<southbc Sync="TRUE">45.481139</southbc>
+			</bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">175794.248359</leftbc>
+				<rightbc Sync="TRUE">777606.614287</rightbc>
+				<topbc Sync="TRUE">413186.310016</topbc>
+				<bottombc Sync="TRUE">24956.257779</bottombc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>county</themekey>
+				<themekey>state</themekey>
+				<themekey>boundary</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Washington</placekey>
+				<placekey>northwest</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>Reproduction or redistribution of copyrighted digital data sets or products derived from outside of licensees' organization or entity is expressly forbidden. The only exception is redistribution to consultants working for the licensee, and then only for purposes, related to work for the licensee. Such consultants may not further reproduce or redistribute these data sets. None of these data shall be electronically duplicated on magnetic or optical media for use by others, in whole or part, without permission of the appropiate custodial division of the Washington State Department of Ecology. Any hardcopies utilizing these data sets shall clearly indicate their source. If the licensee has modified the data in any way they are obligated to describe the types of modifications they have performed on the hardcopy map. Licensee specifically agrees not to misrepresent these data sets, nor to imply that changes they made were approved by the Washington State Department of Ecology.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Washington State Department of Ecology</cntorg>
+					<cntper>Richard Kim</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>P.O. Box 47600, 300 Desmond Drive</address>
+					<city>Olympia</city>
+					<state>Washington</state>
+					<postal>98504-7600</postal>
+					<country>United States of America</country>
+				</cntaddr>
+				<cntvoice>(360) 407-6121</cntvoice>
+				<cntfax>(360) 407-6121</cntfax>
+				<cntemail>rkim461@ecy.wa.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<browse>
+			<browsen>http://www.ecy.wa.gov/services/gis/data/polsub/county.gif</browsen>
+			<browsed>Simple image</browsed>
+			<browset>GIF</browset>
+		</browse>
+		<datacred>Washington State Department of Natural Resources</datacred>
+		<secinfo>
+			<secclass>Unclassified</secclass>
+		</secinfo>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.3.0.1770</native>
+		<crossref>
+			<citeinfo>
+				<origin>Washington State Department of Natural Resources</origin>
+				<pubdate>1986</pubdate>
+				<title>Public land survey/Ownership/County/Administration (POCA)</title>
+				<edition>1</edition>
+				<geoform>map</geoform>
+				<serinfo>
+					<sername>POCA</sername>
+					<issue>Georeferencing data</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Olympia, Washington</pubplace>
+					<publish>Washington Department of Natural Resources</publish>
+				</pubinfo>
+			</citeinfo>
+		</crossref>
+		<natvform Sync="TRUE">Shapefile</natvform>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Names and FIPS codes are correct. Accuracy is unknown.</attraccr>
+		</attracc>
+		<logic>Polygon and arc-node topology exist.</logic>
+		<complete>Data set is complete</complete>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Washington State Department of Natural Resources</origin>
+						<pubdate>1986</pubdate>
+						<title>Public land survey/Ownership/County/Administration (POCA)</title>
+						<edition>1</edition>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>POCA</sername>
+							<issue>Georeferencing data</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Olympia, Washington</pubplace>
+							<publish>Washington Department of Natural Resources</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1986</caldate>
+							<time>unknown</time>
+						</sngdate>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>CIT21</srccitea>
+				<srccontr>Public land survey/ownership/county/administrative (POCA) data layer</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>Used ARC command, dissolve, to create county boundaries from POCA coverage.</procdesc>
+				<procdate>19991109</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Kirk Sinclair</cntper>
+							<cntorg>Washington State Department of Ecology</cntorg>
+						</cntperp>
+						<cntpos>Groundwater Water Quality Investigations</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>
+PO Box 47600,
+300 Desmond Drive
+</address>
+							<city>Olympia</city>
+							<state>Washington</state>
+							<postal>98504-7600</postal>
+							<country>United States of America</country>
+						</cntaddr>
+						<cntvoice>(360) 407-6557</cntvoice>
+						<cntfax>(360) 407-6884</cntfax>
+						<cntemail>ksin461@ecy.wa.gov</cntemail>
+						<hours>8:00am - 5:00pm</hours>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Dataset copied.</procdesc>
+				<srcused Sync="TRUE"></srcused>
+				<date Sync="TRUE">20021209</date>
+				<time Sync="TRUE">13500500</time>
+			</procstep>
+			<procstep>
+				<procdesc Sync="TRUE">Dataset copied.</procdesc>
+				<srcused Sync="TRUE"></srcused>
+				<date Sync="TRUE">20021209</date>
+				<time Sync="TRUE">14010900</time>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\DOCUME~1\pbeale.SSV\LOCALS~1\Temp\xml1B.tmp</srcused><date Sync="TRUE">20070130</date><time Sync="TRUE">11172700</time></procstep></lineage>
+		<cloud>Unknown</cloud>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="Counties_Clip">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">0</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm Name="label">
+				<sdtstype Sync="TRUE">Label point</sdtstype>
+				<ptvctcnt Sync="TRUE">39</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm Name="polygon">
+				<sdtstype Sync="TRUE">GT-polygon composed of chains</sdtstype>
+				<ptvctcnt Sync="TRUE">39</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm Name="tic">
+				<sdtstype Sync="TRUE">Point</sdtstype>
+				<ptvctcnt Sync="TRUE">90</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm Name="annotation">
+				<sdtstype Sync="TRUE">Label point</sdtstype>
+				<ptvctcnt Sync="TRUE">84</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm Name="region.air">
+				<sdtstype Sync="TRUE">Composite object</sdtstype>
+				<ptvctcnt Sync="TRUE">10</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm Name="region.ecy">
+				<sdtstype Sync="TRUE">Composite object</sdtstype>
+				<ptvctcnt Sync="TRUE">4</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="Counties_Clip">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+				<spindex Sync="TRUE">FALSE</spindex>
+				<efeageom Sync="TRUE">Polygon</efeageom>
+				<efeacnt Sync="TRUE">0</efeacnt>
+			</esriterm>
+			<esriterm Name="label">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+				<spindex Sync="TRUE">FALSE</spindex>
+				<efeageom Sync="TRUE">Label</efeageom>
+				<efeacnt Sync="TRUE">39</efeacnt>
+			</esriterm>
+			<esriterm Name="polygon">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<esritopo Sync="TRUE">TRUE</esritopo>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+				<spindex Sync="TRUE">FALSE</spindex>
+				<efeageom Sync="TRUE">Polygon</efeageom>
+				<efeacnt Sync="TRUE">39</efeacnt>
+			</esriterm>
+			<esriterm Name="tic">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+				<spindex Sync="TRUE">FALSE</spindex>
+				<efeageom Sync="TRUE">Tic</efeageom>
+				<efeacnt Sync="TRUE">90</efeacnt>
+			</esriterm>
+			<esriterm Name="annotation">
+				<efeatyp Sync="TRUE"></efeatyp>
+				<esritopo Sync="TRUE">FALSE</esritopo>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+				<spindex Sync="TRUE">FALSE</spindex>
+				<efeageom Sync="TRUE">Annotation</efeageom>
+				<efeacnt Sync="TRUE">84</efeacnt>
+			</esriterm>
+			<esriterm Name="region.air">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<esritopo Sync="TRUE">TRUE</esritopo>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+				<spindex Sync="TRUE">FALSE</spindex>
+				<efeageom Sync="TRUE">Region</efeageom>
+				<efeacnt Sync="TRUE">10</efeacnt>
+			</esriterm>
+			<esriterm Name="region.ecy">
+				<efeatyp Sync="TRUE">Simple</efeatyp>
+				<esritopo Sync="TRUE">TRUE</esritopo>
+				<linrefer Sync="TRUE">FALSE</linrefer>
+				<spindex Sync="TRUE">FALSE</spindex>
+				<efeageom Sync="TRUE">Region</efeageom>
+				<efeacnt Sync="TRUE">4</efeacnt>
+			</esriterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000000</absres>
+						<ordres Sync="TRUE">0.000000</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">meters</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn><lambertc><stdparll Sync="TRUE">45.833333</stdparll><stdparll Sync="TRUE">47.333333</stdparll><longcm Sync="TRUE">-120.500000</longcm><latprjo Sync="TRUE">45.333333</latprjo><feast Sync="TRUE">500000.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></lambertc></mapproj></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">D_North_American_1983_HARN</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_North_American_1983_HARN</geogcsn>
+				<projcsn Sync="TRUE">NAD_1983_HARN_StatePlane_Washington_South_FIPS_4602</projcsn>
+			</cordsysn>
+		</horizsys>
+		<vertdef><altsys><altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc><altres Sync="TRUE">0.000010</altres></altsys></vertdef></spref>
+	<eainfo>
+		<detailed Name="Counties_Clip">
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>Adams</edomvd>
+					</edom>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>Asotin</edomvd>
+					</edom>
+					<edom>
+						<edomv>3</edomv>
+						<edomvd>Benton</edomvd>
+					</edom>
+					<edom>
+						<edomv>4</edomv>
+						<edomvd>Chelan</edomvd>
+					</edom>
+					<edom>
+						<edomv>5</edomv>
+						<edomvd>Clallam</edomvd>
+					</edom>
+					<edom>
+						<edomv>6</edomv>
+						<edomvd>Clark</edomvd>
+					</edom>
+					<edom>
+						<edomv>7</edomv>
+						<edomvd>Columbia</edomvd>
+					</edom>
+					<edom>
+						<edomv>8</edomv>
+						<edomvd>Cowlitz</edomvd>
+					</edom>
+					<edom>
+						<edomv>9</edomv>
+						<edomvd>Douglas</edomvd>
+					</edom>
+					<edom>
+						<edomv>10</edomv>
+						<edomvd>Ferry</edomvd>
+					</edom>
+					<edom>
+						<edomv>11</edomv>
+						<edomvd>Franklin</edomvd>
+					</edom>
+					<edom>
+						<edomv>12</edomv>
+						<edomvd>Garfield</edomvd>
+					</edom>
+					<edom>
+						<edomv>13</edomv>
+						<edomvd>Grant</edomvd>
+					</edom>
+					<edom>
+						<edomv>14</edomv>
+						<edomvd>Grays Harbor</edomvd>
+					</edom>
+					<edom>
+						<edomv>15</edomv>
+						<edomvd>Island</edomvd>
+					</edom>
+					<edom>
+						<edomv>16</edomv>
+						<edomvd>Jefferson</edomvd>
+					</edom>
+					<edom>
+						<edomv>17</edomv>
+						<edomvd>King</edomvd>
+					</edom>
+					<edom>
+						<edomv>18</edomv>
+						<edomvd>Kitsap</edomvd>
+					</edom>
+					<edom>
+						<edomv>19</edomv>
+						<edomvd>Kittitas</edomvd>
+					</edom>
+					<edom>
+						<edomv>20</edomv>
+						<edomvd>Klickitat</edomvd>
+					</edom>
+					<edom>
+						<edomv>21</edomv>
+						<edomvd>Lewis</edomvd>
+					</edom>
+					<edom>
+						<edomv>22</edomv>
+						<edomvd>Lincoln</edomvd>
+					</edom>
+					<edom>
+						<edomv>23</edomv>
+						<edomvd>Mason</edomvd>
+					</edom>
+					<edom>
+						<edomv>24</edomv>
+						<edomvd>Okanogan</edomvd>
+					</edom>
+					<edom>
+						<edomv>25</edomv>
+						<edomvd>Pacific</edomvd>
+					</edom>
+					<edom>
+						<edomv>26</edomv>
+						<edomvd>Pend Oreille</edomvd>
+					</edom>
+					<edom>
+						<edomv>27</edomv>
+						<edomvd>Pierce</edomvd>
+					</edom>
+					<edom>
+						<edomv>28</edomv>
+						<edomvd>San Juan</edomvd>
+					</edom>
+					<edom>
+						<edomv>29</edomv>
+						<edomvd>Skagit</edomvd>
+					</edom>
+					<edom>
+						<edomv>30</edomv>
+						<edomvd>Skamania</edomvd>
+					</edom>
+					<edom>
+						<edomv>31</edomv>
+						<edomvd>Snohomish</edomvd>
+					</edom>
+					<edom>
+						<edomv>32</edomv>
+						<edomvd>Spokane</edomvd>
+					</edom>
+					<edom>
+						<edomv>33</edomv>
+						<edomvd>Stevens</edomvd>
+					</edom>
+					<edom>
+						<edomv>34</edomv>
+						<edomvd>Thurston</edomvd>
+					</edom>
+					<edom>
+						<edomv>35</edomv>
+						<edomvd>Wahkiakum</edomvd>
+					</edom>
+					<edom>
+						<edomv>36</edomv>
+						<edomvd>Walla Walla</edomvd>
+					</edom>
+					<edom>
+						<edomv>37</edomv>
+						<edomvd>Whatcom</edomvd>
+					</edom>
+					<edom>
+						<edomv>38</edomv>
+						<edomvd>Whitman</edomvd>
+					</edom>
+					<edom>
+						<edomv>39</edomv>
+						<edomvd>Yakima</edomvd>
+					</edom>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">0</attwidth>
+			</attr>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<attrlabl Sync="TRUE">AREA</attrlabl>
+				<attrdef Sync="TRUE">Internal node number for the beginning of an arc (from-node).</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>001</edomv>
+						<edomvd>Adams</edomvd>
+					</edom>
+					<edom>
+						<edomv>003</edomv>
+						<edomvd>Asotin</edomvd>
+					</edom>
+					<edom>
+						<edomv>005</edomv>
+						<edomvd>Benton</edomvd>
+					</edom>
+					<edom>
+						<edomv>007</edomv>
+						<edomvd>Chelan</edomvd>
+					</edom>
+					<edom>
+						<edomv>009</edomv>
+						<edomvd>Clallam</edomvd>
+					</edom>
+					<edom>
+						<edomv>011</edomv>
+						<edomvd>Clark</edomvd>
+					</edom>
+					<edom>
+						<edomv>013</edomv>
+						<edomvd>Columbia</edomvd>
+					</edom>
+					<edom>
+						<edomv>015</edomv>
+						<edomvd>Cowlitz</edomvd>
+					</edom>
+					<edom>
+						<edomv>017</edomv>
+						<edomvd>Douglas</edomvd>
+					</edom>
+					<edom>
+						<edomv>019</edomv>
+						<edomvd>Ferry</edomvd>
+					</edom>
+					<edom>
+						<edomv>021</edomv>
+						<edomvd>Franklin</edomvd>
+					</edom>
+					<edom>
+						<edomv>023</edomv>
+						<edomvd>Garfield</edomvd>
+					</edom>
+					<edom>
+						<edomv>025</edomv>
+						<edomvd>Grant</edomvd>
+					</edom>
+					<edom>
+						<edomv>027</edomv>
+						<edomvd>Grays Harbor</edomvd>
+					</edom>
+					<edom>
+						<edomv>029</edomv>
+						<edomvd>Island</edomvd>
+					</edom>
+					<edom>
+						<edomv>031</edomv>
+						<edomvd>Jefferson</edomvd>
+					</edom>
+					<edom>
+						<edomv>033</edomv>
+						<edomvd>King</edomvd>
+					</edom>
+					<edom>
+						<edomv>035</edomv>
+						<edomvd>Kitsap</edomvd>
+					</edom>
+					<edom>
+						<edomv>037</edomv>
+						<edomvd>Kittitas</edomvd>
+					</edom>
+					<edom>
+						<edomv>039</edomv>
+						<edomvd>Klickitat</edomvd>
+					</edom>
+					<edom>
+						<edomv>041</edomv>
+						<edomvd>Lewis</edomvd>
+					</edom>
+					<edom>
+						<edomv>043</edomv>
+						<edomvd>Lincoln</edomvd>
+					</edom>
+					<edom>
+						<edomv>045</edomv>
+						<edomvd>Mason</edomvd>
+					</edom>
+					<edom>
+						<edomv>047</edomv>
+						<edomvd>Okanogan</edomvd>
+					</edom>
+					<edom>
+						<edomv>049</edomv>
+						<edomvd>Pacific</edomvd>
+					</edom>
+					<edom>
+						<edomv>051</edomv>
+						<edomvd>Pend Oreille</edomvd>
+					</edom>
+					<edom>
+						<edomv>053</edomv>
+						<edomvd>Pierce</edomvd>
+					</edom>
+					<edom>
+						<edomv>055</edomv>
+						<edomvd>San Juan</edomvd>
+					</edom>
+					<edom>
+						<edomv>057</edomv>
+						<edomvd>Skagit</edomvd>
+					</edom>
+					<edom>
+						<edomv>059</edomv>
+						<edomvd>Skamania</edomvd>
+					</edom>
+					<edom>
+						<edomv>061</edomv>
+						<edomvd>Snohomish</edomvd>
+					</edom>
+					<edom>
+						<edomv>063</edomv>
+						<edomvd>Spokane</edomvd>
+					</edom>
+					<edom>
+						<edomv>065</edomv>
+						<edomvd>Stevens</edomvd>
+					</edom>
+					<edom>
+						<edomv>067</edomv>
+						<edomvd>Thurston</edomvd>
+					</edom>
+					<edom>
+						<edomv>069</edomv>
+						<edomvd>Wahkiakum</edomvd>
+					</edom>
+					<edom>
+						<edomv>071</edomv>
+						<edomvd>Walla Walla</edomvd>
+					</edom>
+					<edom>
+						<edomv>073</edomv>
+						<edomvd>Whatcom</edomvd>
+					</edom>
+					<edom>
+						<edomv>075</edomv>
+						<edomvd>Whitman</edomvd>
+					</edom>
+					<edom>
+						<edomv>077</edomv>
+						<edomvd>Yakima</edomvd>
+					</edom>
+					<udom Sync="TRUE">Whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atoutwid Sync="TRUE">5</atoutwid>
+				<attalias Sync="TRUE">AREA</attalias>
+				<attrtype Sync="TRUE">Float</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+			</attr>
+			<attr><attrlabl Sync="TRUE">FID_County</attrlabl><attalias Sync="TRUE">FID_County</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr><enttyp>
+				<enttypl Sync="TRUE">Counties_Clip</enttypl>
+				<enttypd>Arc attribute table</enttypd>
+				<enttypc Sync="TRUE">0</enttypc>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">PERIMETER</attrlabl>
+				<attrdef Sync="TRUE">Internal node number for the end of an arc (to-node).</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Adams</edomv>
+					</edom>
+					<edom>
+						<edomv>Asotin</edomv>
+					</edom>
+					<edom>
+						<edomv>Benton</edomv>
+					</edom>
+					<edom>
+						<edomv>Chelan</edomv>
+					</edom>
+					<edom>
+						<edomv>Clallam</edomv>
+					</edom>
+					<edom>
+						<edomv>Clark</edomv>
+					</edom>
+					<edom>
+						<edomv>Columbia</edomv>
+					</edom>
+					<edom>
+						<edomv>Cowlitz</edomv>
+					</edom>
+					<edom>
+						<edomv>Douglas</edomv>
+					</edom>
+					<edom>
+						<edomv>Ferry</edomv>
+					</edom>
+					<edom>
+						<edomv>Franklin</edomv>
+					</edom>
+					<edom>
+						<edomv>Garfield</edomv>
+					</edom>
+					<edom>
+						<edomv>Grant</edomv>
+					</edom>
+					<edom>
+						<edomv>Grays Harbor</edomv>
+					</edom>
+					<edom>
+						<edomv>Island</edomv>
+					</edom>
+					<edom>
+						<edomv>Jefferson</edomv>
+					</edom>
+					<edom>
+						<edomv>King</edomv>
+					</edom>
+					<edom>
+						<edomv>Kitsap</edomv>
+					</edom>
+					<edom>
+						<edomv>Kittitas</edomv>
+					</edom>
+					<edom>
+						<edomv>Klickitat</edomv>
+					</edom>
+					<edom>
+						<edomv>Lewis</edomv>
+					</edom>
+					<edom>
+						<edomv>Lincoln</edomv>
+					</edom>
+					<edom>
+						<edomv>Mason</edomv>
+					</edom>
+					<edom>
+						<edomv>Okanogan</edomv>
+					</edom>
+					<edom>
+						<edomv>Pacific</edomv>
+					</edom>
+					<edom>
+						<edomv>Pend Oreille</edomv>
+					</edom>
+					<edom>
+						<edomv>Pierce</edomv>
+					</edom>
+					<edom>
+						<edomv>San Juan</edomv>
+					</edom>
+					<edom>
+						<edomv>Skagit</edomv>
+					</edom>
+					<edom>
+						<edomv>Skamania</edomv>
+					</edom>
+					<edom>
+						<edomv>Snohomish</edomv>
+					</edom>
+					<edom>
+						<edomv>Spokane</edomv>
+					</edom>
+					<edom>
+						<edomv>Stevens</edomv>
+					</edom>
+					<edom>
+						<edomv>Thurston</edomv>
+					</edom>
+					<edom>
+						<edomv>Wahkiakum</edomv>
+					</edom>
+					<edom>
+						<edomv>Walla Walla</edomv>
+					</edom>
+					<edom>
+						<edomv>Whatcom</edomv>
+					</edom>
+					<edom>
+						<edomv>Whitman</edomv>
+					</edom>
+					<edom>
+						<edomv>Yakima</edomv>
+					</edom>
+					<udom Sync="TRUE">Whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<atoutwid Sync="TRUE">5</atoutwid>
+				<attalias Sync="TRUE">PERIMETER</attalias>
+				<attrtype Sync="TRUE">Float</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">COUNTY_NM</attrlabl>
+				<attrdef Sync="TRUE">User-defined feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<atoutwid Sync="TRUE">5</atoutwid>
+				<attalias Sync="TRUE">COUNTY_NM</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">15</attwidth>
+			</attr>
+			<attr><attrlabl Sync="TRUE">COUNTIES_I</attrlabl><attalias Sync="TRUE">COUNTIES_I</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr><attr><attrlabl Sync="TRUE">COUNTY_COD</attrlabl><attalias Sync="TRUE">COUNTY_COD</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">4</attwidth></attr><attr><attrlabl Sync="TRUE">COUNTY_FIP</attrlabl><attalias Sync="TRUE">COUNTY_FIP</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">3</attwidth></attr><attr><attrlabl Sync="TRUE">COUNTIES_</attrlabl><attalias Sync="TRUE">COUNTIES_</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">9</attwidth></attr><attr><attrlabl Sync="TRUE">ECY_REGION</attrlabl><attalias Sync="TRUE">ECY_REGION</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">4</attwidth></attr><attr><attrlabl Sync="TRUE">AIR_REGION</attrlabl><attalias Sync="TRUE">AIR_REGION</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">46</attwidth></attr><attr><attrlabl Sync="TRUE">Shape_Leng</attrlabl><attalias Sync="TRUE">Shape_Leng</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth></attr><attr><attrlabl Sync="TRUE">Shape_Area</attrlabl><attalias Sync="TRUE">Shape_Area</attalias><attrtype Sync="TRUE">Float</attrtype><attwidth Sync="TRUE">19</attwidth><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv><atnumdec Sync="TRUE">11</atnumdec></attr></detailed>
+		<detailed Name="county.pat">
+			<enttyp>
+				<enttypl Sync="TRUE">county.pat</enttypl>
+				<enttypd>Arc attribute table</enttypd>
+				<enttypc Sync="TRUE">39</enttypc>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>CRO</edomv>
+						<edomvd>Central Regional Office</edomvd>
+					</edom>
+					<edom>
+						<edomv>ERO</edomv>
+						<edomvd>Eastern Regional Office</edomvd>
+					</edom>
+					<edom>
+						<edomv>NWRO</edomv>
+						<edomvd>Northwest Regional Office</edomvd>
+					</edom>
+					<edom>
+						<edomv>SWRO</edomv>
+						<edomvd>Southwest Regional Office</edomvd>
+					</edom>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">FID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">4</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">0</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AREA</attrlabl>
+				<attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atnumdec Sync="TRUE">11</atnumdec>
+				<atoutwid Sync="TRUE">12</atoutwid>
+				<attrtype Sync="TRUE">Float</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PERIMETER</attrlabl>
+				<attrdef Sync="TRUE">Perimeter of feature in internal units.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atoutwid Sync="TRUE">12</atoutwid>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">9</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">COUNTY#</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atoutwid Sync="TRUE">5</atoutwid>
+				<attrtype Sync="TRUE">Float</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl Sync="TRUE">COUNTY-ID</attrlabl>
+				<attrdef Sync="TRUE">User-defined feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<atoutwid Sync="TRUE">5</atoutwid>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">15</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">COUNTY_CODE_NR</attrlabl>
+				<attrdef>County code number</attrdef>
+				<attrdefs>Derived by alphabetical order</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>Adams</edomvd>
+					</edom>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>Asotin</edomvd>
+					</edom>
+					<edom>
+						<edomv>3</edomv>
+						<edomvd>Benton</edomvd>
+					</edom>
+					<edom>
+						<edomv>4</edomv>
+						<edomvd>Chelan</edomvd>
+					</edom>
+					<edom>
+						<edomv>5</edomv>
+						<edomvd>Clallam</edomvd>
+					</edom>
+					<edom>
+						<edomv>6</edomv>
+						<edomvd>Clark</edomvd>
+					</edom>
+					<edom>
+						<edomv>7</edomv>
+						<edomvd>Columbia</edomvd>
+					</edom>
+					<edom>
+						<edomv>8</edomv>
+						<edomvd>Cowlitz</edomvd>
+					</edom>
+					<edom>
+						<edomv>9</edomv>
+						<edomvd>Douglas</edomvd>
+					</edom>
+					<edom>
+						<edomv>10</edomv>
+						<edomvd>Ferry</edomvd>
+					</edom>
+					<edom>
+						<edomv>11</edomv>
+						<edomvd>Franklin</edomvd>
+					</edom>
+					<edom>
+						<edomv>12</edomv>
+						<edomvd>Garfield</edomvd>
+					</edom>
+					<edom>
+						<edomv>13</edomv>
+						<edomvd>Grant</edomvd>
+					</edom>
+					<edom>
+						<edomv>14</edomv>
+						<edomvd>Grays Harbor</edomvd>
+					</edom>
+					<edom>
+						<edomv>15</edomv>
+						<edomvd>Island</edomvd>
+					</edom>
+					<edom>
+						<edomv>16</edomv>
+						<edomvd>Jefferson</edomvd>
+					</edom>
+					<edom>
+						<edomv>17</edomv>
+						<edomvd>King</edomvd>
+					</edom>
+					<edom>
+						<edomv>18</edomv>
+						<edomvd>Kitsap</edomvd>
+					</edom>
+					<edom>
+						<edomv>19</edomv>
+						<edomvd>Kittitas</edomvd>
+					</edom>
+					<edom>
+						<edomv>20</edomv>
+						<edomvd>Klickitat</edomvd>
+					</edom>
+					<edom>
+						<edomv>21</edomv>
+						<edomvd>Lewis</edomvd>
+					</edom>
+					<edom>
+						<edomv>22</edomv>
+						<edomvd>Lincoln</edomvd>
+					</edom>
+					<edom>
+						<edomv>23</edomv>
+						<edomvd>Mason</edomvd>
+					</edom>
+					<edom>
+						<edomv>24</edomv>
+						<edomvd>Okanogan</edomvd>
+					</edom>
+					<edom>
+						<edomv>25</edomv>
+						<edomvd>Pacific</edomvd>
+					</edom>
+					<edom>
+						<edomv>26</edomv>
+						<edomvd>Pend Oreille</edomvd>
+					</edom>
+					<edom>
+						<edomv>27</edomv>
+						<edomvd>Pierce</edomvd>
+					</edom>
+					<edom>
+						<edomv>28</edomv>
+						<edomvd>San Juan</edomvd>
+					</edom>
+					<edom>
+						<edomv>29</edomv>
+						<edomvd>Skagit</edomvd>
+					</edom>
+					<edom>
+						<edomv>30</edomv>
+						<edomvd>Skamania</edomvd>
+					</edom>
+					<edom>
+						<edomv>31</edomv>
+						<edomvd>Snohomish</edomvd>
+					</edom>
+					<edom>
+						<edomv>32</edomv>
+						<edomvd>Spokane</edomvd>
+					</edom>
+					<edom>
+						<edomv>33</edomv>
+						<edomvd>Stevens</edomvd>
+					</edom>
+					<edom>
+						<edomv>34</edomv>
+						<edomvd>Thurston</edomvd>
+					</edom>
+					<edom>
+						<edomv>35</edomv>
+						<edomvd>Wahkiakum</edomvd>
+					</edom>
+					<edom>
+						<edomv>36</edomv>
+						<edomvd>Walla Walla</edomvd>
+					</edom>
+					<edom>
+						<edomv>37</edomv>
+						<edomvd>Whatcom</edomvd>
+					</edom>
+					<edom>
+						<edomv>38</edomv>
+						<edomvd>Whitman</edomvd>
+					</edom>
+					<edom>
+						<edomv>39</edomv>
+						<edomvd>Yakima</edomvd>
+					</edom>
+				</attrdomv>
+				<atoutwid Sync="TRUE">2</atoutwid>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">9</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">COUNTY_FIPS_CD</attrlabl>
+				<attrdef>County FIPS code</attrdef>
+				<attrdefs>US Census Bureau</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>001</edomv>
+						<edomvd>Adams</edomvd>
+					</edom>
+					<edom>
+						<edomv>003</edomv>
+						<edomvd>Asotin</edomvd>
+					</edom>
+					<edom>
+						<edomv>005</edomv>
+						<edomvd>Benton</edomvd>
+					</edom>
+					<edom>
+						<edomv>007</edomv>
+						<edomvd>Chelan</edomvd>
+					</edom>
+					<edom>
+						<edomv>009</edomv>
+						<edomvd>Clallam</edomvd>
+					</edom>
+					<edom>
+						<edomv>011</edomv>
+						<edomvd>Clark</edomvd>
+					</edom>
+					<edom>
+						<edomv>013</edomv>
+						<edomvd>Columbia</edomvd>
+					</edom>
+					<edom>
+						<edomv>015</edomv>
+						<edomvd>Cowlitz</edomvd>
+					</edom>
+					<edom>
+						<edomv>017</edomv>
+						<edomvd>Douglas</edomvd>
+					</edom>
+					<edom>
+						<edomv>019</edomv>
+						<edomvd>Ferry</edomvd>
+					</edom>
+					<edom>
+						<edomv>021</edomv>
+						<edomvd>Franklin</edomvd>
+					</edom>
+					<edom>
+						<edomv>023</edomv>
+						<edomvd>Garfield</edomvd>
+					</edom>
+					<edom>
+						<edomv>025</edomv>
+						<edomvd>Grant</edomvd>
+					</edom>
+					<edom>
+						<edomv>027</edomv>
+						<edomvd>Grays Harbor</edomvd>
+					</edom>
+					<edom>
+						<edomv>029</edomv>
+						<edomvd>Island</edomvd>
+					</edom>
+					<edom>
+						<edomv>031</edomv>
+						<edomvd>Jefferson</edomvd>
+					</edom>
+					<edom>
+						<edomv>033</edomv>
+						<edomvd>King</edomvd>
+					</edom>
+					<edom>
+						<edomv>035</edomv>
+						<edomvd>Kitsap</edomvd>
+					</edom>
+					<edom>
+						<edomv>037</edomv>
+						<edomvd>Kittitas</edomvd>
+					</edom>
+					<edom>
+						<edomv>039</edomv>
+						<edomvd>Klickitat</edomvd>
+					</edom>
+					<edom>
+						<edomv>041</edomv>
+						<edomvd>Lewis</edomvd>
+					</edom>
+					<edom>
+						<edomv>043</edomv>
+						<edomvd>Lincoln</edomvd>
+					</edom>
+					<edom>
+						<edomv>045</edomv>
+						<edomvd>Mason</edomvd>
+					</edom>
+					<edom>
+						<edomv>047</edomv>
+						<edomvd>Okanogan</edomvd>
+					</edom>
+					<edom>
+						<edomv>049</edomv>
+						<edomvd>Pacific</edomvd>
+					</edom>
+					<edom>
+						<edomv>051</edomv>
+						<edomvd>Pend Oreille</edomvd>
+					</edom>
+					<edom>
+						<edomv>053</edomv>
+						<edomvd>Pierce</edomvd>
+					</edom>
+					<edom>
+						<edomv>055</edomv>
+						<edomvd>San Juan</edomvd>
+					</edom>
+					<edom>
+						<edomv>057</edomv>
+						<edomvd>Skagit</edomvd>
+					</edom>
+					<edom>
+						<edomv>059</edomv>
+						<edomvd>Skamania</edomvd>
+					</edom>
+					<edom>
+						<edomv>061</edomv>
+						<edomvd>Snohomish</edomvd>
+					</edom>
+					<edom>
+						<edomv>063</edomv>
+						<edomvd>Spokane</edomvd>
+					</edom>
+					<edom>
+						<edomv>065</edomv>
+						<edomvd>Stevens</edomvd>
+					</edom>
+					<edom>
+						<edomv>067</edomv>
+						<edomvd>Thurston</edomvd>
+					</edom>
+					<edom>
+						<edomv>069</edomv>
+						<edomvd>Wahkiakum</edomvd>
+					</edom>
+					<edom>
+						<edomv>071</edomv>
+						<edomvd>Walla Walla</edomvd>
+					</edom>
+					<edom>
+						<edomv>073</edomv>
+						<edomvd>Whatcom</edomvd>
+					</edom>
+					<edom>
+						<edomv>075</edomv>
+						<edomvd>Whitman</edomvd>
+					</edom>
+					<edom>
+						<edomv>077</edomv>
+						<edomvd>Yakima</edomvd>
+					</edom>
+				</attrdomv>
+				<atoutwid Sync="TRUE">3</atoutwid>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">COUNTY_NM</attrlabl>
+				<attrdef>County name</attrdef>
+				<attrdomv></attrdomv>
+				<atoutwid Sync="TRUE">15</atoutwid>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">3</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ECY_REGION_CD</attrlabl>
+				<attrdef>Ecology region code</attrdef>
+				<attrdefs>Ecology</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>ERO</edomv>
+						<edomvd>Eastern Regional Office</edomvd>
+					</edom>
+					<edom>
+						<edomv>CRO</edomv>
+						<edomvd>Central Regional Office</edomvd>
+					</edom>
+					<edom>
+						<edomv>NWRO</edomv>
+						<edomvd>Northwest Regional Office</edomvd>
+					</edom>
+					<edom>
+						<edomv>SWRO</edomv>
+						<edomvd>Southwest Regional Office</edomvd>
+					</edom>
+				</attrdomv>
+				<atoutwid Sync="TRUE">4</atoutwid>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">9</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AIR_REGION_CD</attrlabl>
+				<attrdomv>
+					<edom>
+						<edomv>Benton Clean Air Authority</edomv>
+					</edom>
+					<edom>
+						<edomv>Northwest Air Pollution Authority</edomv>
+					</edom>
+					<edom>
+						<edomv>Olympic Air Pollution Control</edomv>
+					</edom>
+					<edom>
+						<edomv>Puget Sound Clean Air Agency</edomv>
+					</edom>
+					<edom>
+						<edomv>Southwest Air Pollution Control Authority</edomv>
+					</edom>
+					<edom>
+						<edomv>Yakima Regional Clean Air Authority</edomv>
+					</edom>
+					<edom>
+						<edomv>Ecology Eastern Regional Office</edomv>
+					</edom>
+					<edom>
+						<edomv>Ecology Central Regional Office</edomv>
+					</edom>
+					<edom>
+						<edomv>Ecology Northwest Regional Office</edomv>
+					</edom>
+				</attrdomv>
+				<atoutwid Sync="TRUE">46</atoutwid>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+			</attr>
+			<attr/><attr><atnumdec/></attr><attr><atnumdec Sync="TRUE">11</atnumdec></attr></detailed>
+		<detailed Name="county.patair">
+			<enttyp>
+				<enttypl Sync="TRUE">county.patair</enttypl>
+				<enttypd>Air quality area authority region attribute table</enttypd>
+				<enttypc Sync="TRUE">10</enttypc>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Benton Clean Air Authority</edomv>
+					</edom>
+					<edom>
+						<edomv>Northwest Air Pollution Authority</edomv>
+					</edom>
+					<edom>
+						<edomv>Olympic Air Pollution Control Authority</edomv>
+					</edom>
+					<edom>
+						<edomv>Puget Sound Clean Air Agency</edomv>
+					</edom>
+					<edom>
+						<edomv>Southwest Air Pollution Control Authority</edomv>
+					</edom>
+					<edom>
+						<edomv>Spokane County Air Pollution Control Authority</edomv>
+					</edom>
+					<edom>
+						<edomv>Yakima Regional Clean Air Authority</edomv>
+					</edom>
+					<edom>
+						<edomv>Ecology Eastern Regional Office</edomv>
+					</edom>
+					<edom>
+						<edomv>Ecology Central Regional Office</edomv>
+					</edom>
+					<edom>
+						<edomv>Ecology Northwest Regional Office</edomv>
+					</edom>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attrmfrq>None planned</attrmfrq>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">FID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">4</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">0</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AREA</attrlabl>
+				<attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atnumdec Sync="TRUE">11</atnumdec>
+				<atoutwid Sync="TRUE">12</atoutwid>
+				<attrtype Sync="TRUE">Float</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PERIMETER</attrlabl>
+				<attrdef Sync="TRUE">Perimeter of feature in internal units.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atoutwid Sync="TRUE">12</atoutwid>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">9</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AIR#</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atoutwid Sync="TRUE">5</atoutwid>
+				<attrtype Sync="TRUE">Float</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl Sync="TRUE">AIR-ID</attrlabl>
+				<attrdef Sync="TRUE">User-defined feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<atoutwid Sync="TRUE">5</atoutwid>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">15</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AIR_REGION_CD</attrlabl>
+				<attrdef>Local area air quality authority</attrdef>
+				<attrdefs>Department of Ecology, Air Program</attrdefs>
+				<atoutwid Sync="TRUE">46</atoutwid>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">9</attwidth>
+			</attr>
+			<attr/><attr/><attr><atnumdec/></attr></detailed>
+		<detailed Name="county.patecy">
+			<enttyp>
+				<enttypl Sync="TRUE">county.patecy</enttypl>
+				<enttypd>Ecology regions attribute table</enttypd>
+				<enttypds>Ecology</enttypds>
+				<enttypc Sync="TRUE">4</enttypc>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+			</enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>All in state boundaries</edomvd>
+					</edom>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>International boundary</edomvd>
+					</edom>
+					<edom>
+						<edomv>3</edomv>
+						<edomvd>Border states</edomvd>
+					</edom>
+					<edom>
+						<edomv>4</edomv>
+						<edomvd>Water bodies except coastline</edomvd>
+					</edom>
+					<edom>
+						<edomv>9</edomv>
+						<edomvd>Coastal 3 mile limit</edomvd>
+					</edom>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attrmfrq>As needed</attrmfrq>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">FID</attalias>
+				<attrtype Sync="TRUE">OID</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">4</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+				<attrmfrq>As needed</attrmfrq>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attscale Sync="TRUE">0</attscale>
+				<attwidth Sync="TRUE">0</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">AREA</attrlabl>
+				<attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atnumdec Sync="TRUE">11</atnumdec>
+				<atoutwid Sync="TRUE">12</atoutwid>
+				<attrtype Sync="TRUE">Float</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">PERIMETER</attrlabl>
+				<attrdef Sync="TRUE">Perimeter of feature in internal units.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atoutwid Sync="TRUE">12</atoutwid>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">9</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ECY#</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<atoutwid Sync="TRUE">5</atoutwid>
+				<attrtype Sync="TRUE">Float</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atnumdec Sync="TRUE">11</atnumdec></attr>
+			<attr>
+				<attrlabl Sync="TRUE">ECY-ID</attrlabl>
+				<attrdef Sync="TRUE">User-defined feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<atoutwid Sync="TRUE">5</atoutwid>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">15</attwidth>
+			</attr>
+			<attr>
+				<attrlabl Sync="TRUE">ECY_REGION_CD</attrlabl>
+				<attrdef>Ecology Region code</attrdef>
+				<attrdefs>Ecology</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>CRO</edomv>
+						<edomvd>Central Regional Office</edomvd>
+						<edomvds>Ecology</edomvds>
+					</edom>
+					<edom>
+						<edomv>ERO</edomv>
+						<edomvd>Eastern Regional Office</edomvd>
+						<edomvds>Ecology</edomvds>
+					</edom>
+					<edom>
+						<edomv>NWRO</edomv>
+						<edomvd>Northwest Regional Office</edomvd>
+						<edomvds>Ecology</edomvds>
+					</edom>
+					<edom>
+						<edomv>SWRO</edomv>
+						<edomvd>Southwest Regional Office</edomvd>
+						<edomvds>Ecology</edomvds>
+					</edom>
+				</attrdomv>
+				<atoutwid Sync="TRUE">4</atoutwid>
+				<attrtype Sync="TRUE">Number</attrtype>
+				<attwidth Sync="TRUE">9</attwidth>
+			</attr>
+			<attr/><attr/><attr><atnumdec/></attr></detailed>
+		<overview>
+			<eaover>Line, polygon, and region attribute tables</eaover>
+			<dsoverv>Boundary line of Washington state's 39 counties. Also shows Ecology's four regions and regional air pollution authority areas</dsoverv>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Washington State Department of Transportation</cntorg>
+					<cntper>Allen Blake</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>
+P.O. Box 47600,
+300 Desmond Drive
+</address>
+					<city>Olympia</city>
+					<state>Washington</state>
+					<postal>98504-7600</postal>
+					<country>United States of America</country>
+				</cntaddr>
+				<cntvoice>(360) 709-5521</cntvoice>
+				<cntfax>(360) 709-5599</cntfax>
+				<cntemail>blaket@wsdot.wa.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>ArcInfo data layer</resdesc>
+		<distliab>The Washington State Department of Ecology provides these geographic data "as is." Ecology makes no guarantee or warranty concerning the accuracy of information contained in the geographic data. Ecology further makes no warranties, either expressed or implied as to any other matter whatsoever, including, without limitation, the condition of the product, or its fitness for any particular purpose. The burden for determining fitness for use lies entirely with the user. Although these data have been processed successfully on Ecology computers, no warranty, expressed or implied, is made by Ecology regarding the use of these data on any other system, nor does the fact of distribution constitute or imply any such warranty. In no event shall Ecology have any liability whatsoever for payment of any consequential, incidental, indirect, special, or tort damages of any kind, including, but not limited to, any loss of profits arising out of use of or reliance on the geographical data or arising out of the delivery, installation, operation, or support by Ecology.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>ARCE</formname>
+					<formvern>8.1</formvern>
+					<formspec>ArcInfo export format (E00)</formspec>
+					<filedec>ZIP</filedec>
+					<transize Sync="TRUE">0.000</transize>
+					<dssize Sync="TRUE">0.000</dssize>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<accinstr>Digital data order form is available at http://www.ecy.wa.gov/services/gis/data/digitial.htm</accinstr>
+					</onlinopt>
+				</digtopt>
+				<digtopt>
+					<offoptn>
+						<offmedia>CD-ROM</offmedia>
+					</offoptn>
+				</digtopt>
+			</digform>
+			<fees>$75/hour, one hour minimum.</fees>
+			<ordering>Digital data order form is available at http://www.ecy.wa.gov/services/gis/data/digital.htm</ordering>
+			<turnarnd>One week</turnarnd>
+		</stdorder>
+		<stdorder>
+			<nondig>Custom map</nondig>
+			<digform>
+				<digtinfo>
+					<dssize Sync="TRUE">0.000</dssize>
+				</digtinfo>
+			</digform>
+			<fees>$75 per hour, one hour minimum</fees>
+			<ordering>Contact Joy Denkers, GIS Manager, Washington Department of Ecology</ordering>
+			<turnarnd>Variable</turnarnd>
+		</stdorder>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<dssize Sync="TRUE">0.000</dssize>
+				</digtinfo>
+			</digform>
+		</stdorder>
+		<custom>Available in other formats, such as CD-ROM and 8mm tape by request. Please contact:  Information Resources and Support Section, GIS Unit, Washington State Department of Ecology.</custom>
+		<availabl>
+			<timeinfo>
+				<sngdate>
+					<caldate>1998</caldate>
+				</sngdate>
+			</timeinfo>
+		</availabl>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20090803</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Washington State Department of Ecology</cntorg>
+					<cntper>Richard Kim</cntper>
+				</cntorgp>
+				<cntpos>Spatial Database Administrator</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>
+P.O. Box 47600,
+300 Desmond Drive
+</address>
+					<city>Olympia</city>
+					<state>Washington</state>
+					<postal>98504-7600</postal>
+					<country>United States of America</country>
+				</cntaddr>
+				<cntvoice>(360) 407-6121</cntvoice>
+				<cntfax>(360) 407-6493</cntfax>
+				<cntemail>rkim461@ecy.wa.gov</cntemail>
+				<hours>8:00-17:00</hours>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metac>None</metac>
+		<metuc>None</metuc>
+		<metsi>
+			<metsc>Unclassified</metsc>
+		</metsi>
+		<metextns>
+			<onlink>http://www.wa.gov/ecology/gis/data/polsub/county.htm</onlink>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta>
+		<metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.3.0.1770</envirDesc>
+		<dataLang>
+			<languageCode Sync="TRUE" value="en"></languageCode>
+		</dataLang>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">-124.926702</westBL>
+			<northBL Sync="TRUE">49.04934</northBL>
+			<southBL Sync="TRUE">45.481139</southBL>
+			<eastBL Sync="TRUE">-116.708501</eastBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+		<idCitation>
+			<resTitle Sync="TRUE">Counties_Clip</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005"></PresFormCd>
+			</presForm>
+		</idCitation>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">175794.248359</westBL>
+					<eastBL Sync="TRUE">777606.614287</eastBL>
+					<northBL Sync="TRUE">413186.310016</northBL>
+					<southBL Sync="TRUE">24956.257779</southBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+	</dataIdInfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<linkage Sync="TRUE">file://\\AGRWK6729T\C$\GIS\WSDA_GIS\CommonData\Boundaries\Counties_Clip.shp</linkage>
+					<orDesc Sync="TRUE">002</orDesc>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</onLineSrc>
+				<transSize Sync="TRUE">0.000</transSize>
+			</distorTran>
+			<distorFormat>
+				<formatName Sync="TRUE">Shapefile</formatName>
+			</distorFormat>
+		</distributor>
+	</distInfo>
+	<Esri>
+		<CreaDate>20121205</CreaDate>
+		<ModDate>20090803</ModDate>
+		<ModTime>11090400</ModTime>
+		<SyncDate>20090803</SyncDate>
+		<SyncOnce>FALSE</SyncOnce>
+		<SyncTime>11090400</SyncTime>
+		<CreaTime>11112800</CreaTime>
+		<DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\FeatureToPolygon" Date="20090126" Time="090954">FeatureToPolygon C:\GIS\WSDA_GIS\CommonData\WSDACrops\2008WSDACrops.mdb\WSDACrops\County C:\GIS\WSDA_GIS\CommonData\Boundaries\WA_Counties.shp # ATTRIBUTES #</Process><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Analysis Tools.tbx\Clip" Date="20090803" Time="110914">Clip WA_Counties Regions_HSCD_Vet C:\GIS\WSDA_GIS\CommonData\Boundaries\Counties_Clip.shp #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\UpdateSchema" Date="20220621" Time="102756">UpdateSchema "CIMDATA=&lt;CIMStandardDataConnection xsi:type='typens:CIMStandardDataConnection' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/2.9.0'&gt;&lt;WorkspaceConnectionString&gt;DATABASE=K:\NRAS\Arc_Data\County Boundary\WA_County_Boundaries-shp&lt;/WorkspaceConnectionString&gt;&lt;WorkspaceFactory&gt;Shapefile&lt;/WorkspaceFactory&gt;&lt;Dataset&gt;WA_Countys.shp&lt;/Dataset&gt;&lt;DatasetType&gt;esriDTFeatureClass&lt;/DatasetType&gt;&lt;/CIMStandardDataConnection&gt;" &lt;operationSequence&gt;&lt;workflow&gt;&lt;DeleteField&gt;&lt;field_name&gt;FID_County&lt;/field_name&gt;&lt;field_name&gt;PERIMETER&lt;/field_name&gt;&lt;field_name&gt;COUNTIES_&lt;/field_name&gt;&lt;field_name&gt;COUNTIES_I&lt;/field_name&gt;&lt;field_name&gt;ECY_REGION&lt;/field_name&gt;&lt;field_name&gt;AIR_REGION&lt;/field_name&gt;&lt;field_name&gt;Shape_Leng&lt;/field_name&gt;&lt;field_name&gt;Shape_Area&lt;/field_name&gt;&lt;field_name&gt;VetRegion&lt;/field_name&gt;&lt;field_name&gt;VetName&lt;/field_name&gt;&lt;field_name&gt;HSRegion&lt;/field_name&gt;&lt;/DeleteField&gt;&lt;/workflow&gt;&lt;/operationSequence&gt;</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\UpdateSchema" Date="20220621" Time="102852">UpdateSchema "CIMDATA=&lt;CIMStandardDataConnection xsi:type='typens:CIMStandardDataConnection' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/2.9.0'&gt;&lt;WorkspaceConnectionString&gt;DATABASE=K:\NRAS\Arc_Data\County Boundary\WA_County_Boundaries-shp&lt;/WorkspaceConnectionString&gt;&lt;WorkspaceFactory&gt;Shapefile&lt;/WorkspaceFactory&gt;&lt;Dataset&gt;WA_Countys.shp&lt;/Dataset&gt;&lt;DatasetType&gt;esriDTFeatureClass&lt;/DatasetType&gt;&lt;/CIMStandardDataConnection&gt;" &lt;operationSequence&gt;&lt;workflow&gt;&lt;DeleteField&gt;&lt;field_name&gt;AREA&lt;/field_name&gt;&lt;field_name&gt;COUNTY_COD&lt;/field_name&gt;&lt;field_name&gt;COUNTY_FIP&lt;/field_name&gt;&lt;/DeleteField&gt;&lt;/workflow&gt;&lt;/operationSequence&gt;</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\Toolboxes\Data Management Tools.tbx\Rename" Date="20230605" Time="100226">Rename C:\ArcGIS\WA_County_Boundaries-shp\WA_Countys.shp C:\ArcGIS\WA_County_Boundaries-shp\WA_Counties.shp ShapeFile</Process></lineage><itemProps><itemLocation><linkage Sync="TRUE">file://\\AGRWK78041\C$\Georges_GIS_Folder\Shape_Files\County</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="C:\Georges_GIS_Folder\County" dest="\\AGRWK78041\C$\Georges_GIS_Folder\Shape_Files\County" date="20121206" time="15030400"></copy></copyHistory></DataProperties><ArcGISFormat>1.0</ArcGISFormat></Esri>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004"></CharSetCd>
+	</mdChar>
+	<mdDateSt Sync="TRUE">20090803</mdDateSt>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005"></ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<mdLang>
+		<languageCode Sync="TRUE" value="en"></languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode Sync="TRUE">NAD_1983_HARN_StatePlane_Washington_South_FIPS_4602</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<topLvl>
+				<TopoLevCd Sync="TRUE" value="001"></TopoLevCd>
+			</topLvl>
+			<geometObjs Name="Counties_Clip"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs></VectSpatRep>
+	</spatRepInfo>
+</metadata>
