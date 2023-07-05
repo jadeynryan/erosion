@@ -1,0 +1,135 @@
+---
+title: "Explore NetCDF4 weather files"
+date: 'last-modified'
+format:
+  html:
+    df-print: paged
+    self-contained: true
+---
+
+A simple Quarto notebook to figure out how to read in NetCDF4 files.
+
+## Setup
+
+### Attach packages
+
+```{r}
+library(ncdf4)
+library(purrr)
+library(dplyr)
+library(terra)
+```
+
+Download the NetCDF files from <https://disc.gsfc.nasa.gov> following this `wget` [guide](https://disc.gsfc.nasa.gov/information/howto?title=How%20to%20Access%20GES%20DISC%20Data%20Using%20wget%20and%20curl).
+
+### List all NetCDF files
+
+```{r}
+files <- list.files(paste0(here::here(), "/data/gldas"),
+  pattern = "^.*nc",
+  full.names = TRUE
+)
+```
+
+`r paste0("The folder has **", length(files), "** files.")`
+
+## Explore file contents
+
+### Open first file
+
+```{r}
+nc <- nc_open(files[1])
+```
+
+### See metadata
+
+```{r}
+attributes(nc)$names
+```
+
+`r paste0("The file has **", nc$nvars, "** variables, **", nc$ndims, "** dimensions, and **", nc$natts, "** attributes.")`
+
+### Get coordinates and time
+
+```{r}
+lat <- ncvar_get(nc, "lat")
+lon <- ncvar_get(nc, "lon")
+
+time_m <- ncvar_get(nc, "time")
+time_unit <- ncatt_get(nc, "time", "units")
+paste(time_m, time_unit[2])
+
+# Convert time to human-readable format
+time <- as.POSIXct(
+  (time_m * 60), # Convert to seconds
+  origin = "2000-01-01 03:00:00",
+  tz = "UTC"
+) |>
+  format(format = "%Y/%m/%d %H:%M:%S")
+print(time)
+```
+
+### Get variable names
+
+```{r, results='asis'}
+var_names <- attributes(nc$var)$names
+cat(paste("-", var_names), sep = "\n")
+
+# Remove time_bnds
+var_names <- var_names[!var_names == "time_bnds"]
+cat(paste("-", var_names), sep = "\n")
+```
+
+### Get variable attributes
+
+```{r}
+var_attr <- set_names(var_names) |>
+  map(\(var_name) {
+    ncatt_get(nc, var_name) |>
+      as.data.frame()
+  }) |>
+  list_rbind()
+
+var_attr
+```
+
+### Get variable data
+
+```{r}
+# Create a function to map to each var
+get_var <- function(nc, variable) {
+  data <- ncvar_get(nc, variable)
+  fill_value <- ncatt_get(nc, variable, "_FillValue")
+  # Replace fill values with NA
+  data[data == fill_value$value] <- NA
+  return(data)
+}
+
+nc_array <- set_names(var_names) |>
+  map(\(var_name) get_var(nc, var_name))
+```
+
+### Build dataframe
+
+```{r}
+# Create matrix of long, lat, and time
+lon_lat_time <- as.data.frame(expand.grid(lon, lat, time))
+
+# Reshape variables into long vector
+nc_vec <- set_names(var_names) |>
+  map(\(var_name) as.vector(nc_array[[var_name]])) |>
+  as.data.frame()
+
+# Create dataframe
+nc_df <- cbind(lon_lat_time, nc_vec) |>
+  rename(
+    "Lon" = "Var1",
+    "Lat" = "Var2",
+    "DateTime" = "Var3"
+  )
+# Check the dataframe
+nc_df
+
+# Convert to and plot raster
+plot(rast(nc_df))
+```

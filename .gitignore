@@ -54,3 +54,6 @@ rsconnect/
 
 # Output rasters that will be too large for GitHub
 output/
+
+# NetCDF4 files
+data/gldas/
