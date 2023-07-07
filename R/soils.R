@@ -24,16 +24,16 @@ library(sf)
 library(terra)
 
 # Load shapefiles
-cp <- st_read("data/columbia_plateau_shp") |>
+cp <- st_read("./data/columbia_plateau_shp") |>
   st_transform(5070)
 
-cp_county <- st_read("data/columbia_plateau_county_clip_shp") |>
+cp_county <- st_read("./data/columbia_plateau_county_clip_shp") |>
   filter(!COUNTY_NM == "Grant") |>
   st_transform(5070)
 
 # Must do Grant county separately since its extent has too many
 # pixels for the SDA query
-grant <- st_read("data/grant_2part_shp") |>
+grant <- st_read("./data/grant_2part_shp") |>
   st_transform(5070)
 
 ## Create function to loop through counties of interest ------------
@@ -181,7 +181,7 @@ get_soils <- function(sf, aoi) {
 
   message("Writing raster to output folder")
   aoi_no_space <- sub(" ", "", aoi)
-  writeRaster(soils, paste0("output/", aoi_no_space, ".tif"),
+  writeRaster(soils, paste0("output/counties/", aoi_no_space, ".tif"),
     overwrite = TRUE
   )
 
@@ -206,29 +206,40 @@ walk(grants,
 )
 toc()
 # Combine two Grant county rasters into SpatRasterCollection
-grant1 <- rast("output/Grant1.tif")
-grant2 <- rast("output/Grant2.tif")
+grant1 <- rast("output/counties/Grant1.tif")
+grant2 <- rast("output/counties/Grant2.tif")
 grant <- sprc(grant1, grant2) |>
   terra::merge()
 
 # Write raster
-writeRaster(grant, paste0("output/Grant.tif"),
+writeRaster(grant, paste0("output/counties/Grant.tif"),
   overwrite = TRUE
 )
 
 # Remove temp split Grant rasters
-file.remove(c("output/Grant1.tif", "output/Grant2.tif"))
+file.remove(c("output/counties/Grant1.tif", "output/counties/Grant2.tif"))
 
 ## Combine all counties into one raster ---------------------------
-## I can't get this to work. I think the combined raster is too
-## large so it crashes R.
+## I can't get this to work. I think the combined raster is too large
+## so it crashes R. This will run w/o crashing on my macbook. But the
+## result has a weird blank polygon in the center of the region.
 
-# raster_files <- list.files("./output/", full.names = TRUE)
-# all_rasters <- lapply(raster_files, rast)
+raster_files <- list.files("./output/counties/", full.names = TRUE)
+all_rasters <- lapply(raster_files, rast)
 # cp_soils <- sprc(all_rasters) |>
 #   terra::merge()
 #
 # writeRaster(cp_soils, paste0("output/ColumbiaPlateauSoils.tif"),
 #             overwrite = TRUE
 # )
+#
+# plot(cp_soils)
 
+# vrt function seems to work! Lose the band names and metadata, but
+# seems like that's lost anyways when importing to GEE.
+v <- terra::vrt(raster_files)
+plot(v)
+
+writeRaster(v, paste0("output/cp_soils_vrt.tif"),
+  overwrite = TRUE
+)
