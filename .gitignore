@@ -52,8 +52,9 @@ rsconnect/
 .DS_Store
 .quarto
 
-# Output rasters that will be too large for GitHub
-output/
-
 # NetCDF4 files
 data/gldas/
+
+# Ignore html and tif files
+*.html
+*.tif

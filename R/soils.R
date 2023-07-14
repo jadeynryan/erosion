@@ -75,7 +75,9 @@ get_soils <- function(sf, aoi) {
     "silttotal_r", # total silt (%)
     "claytotal_r", # total clay (%)
     "caco3_r", # calcium carbonate (%)
-    "om_r" # organic matter (%)
+    "om_r", # organic matter (%)
+    "kwfact", # K-factor whole soil (dimensionless)
+    "kffact" # K-factor rock free (dimensionless)
   )
 
   # Get variables using dominant component depth-weighted average
@@ -93,7 +95,8 @@ get_soils <- function(sf, aoi) {
   # Component level variables needed
   c_vars <- c(
     "weg", # wind erodibility group
-    "wei" # wind erodibility index (tons/ac/yr)
+    "wei", # wind erodibility index (tons/ac/yr)
+    "tfact" # T factor (tons/ac/yr)
   )
 
   # Get variables using dominant component average
@@ -206,26 +209,25 @@ walk(grants,
 )
 toc()
 # Combine two Grant county rasters into SpatRasterCollection
-grant1 <- rast("output/counties/Grant1.tif")
-grant2 <- rast("output/counties/Grant2.tif")
-grant <- sprc(grant1, grant2) |>
-  terra::merge()
-
-# Write raster
-writeRaster(grant, paste0("output/counties/Grant.tif"),
-  overwrite = TRUE
-)
-
-# Remove temp split Grant rasters
-file.remove(c("output/counties/Grant1.tif", "output/counties/Grant2.tif"))
+# grant1 <- rast("output/counties/Grant1.tif")
+# grant2 <- rast("output/counties/Grant2.tif")
+# grant <- sprc(grant1, grant2) |>
+#   terra::merge()
+#
+# # Write raster
+# writeRaster(grant, paste0("output/counties/Grant.tif"),
+#   overwrite = TRUE
+# )
+#
+# # Remove temp split Grant rasters
+# file.remove(c("output/counties/Grant1.tif", "output/counties/Grant2.tif"))
 
 ## Combine all counties into one raster ---------------------------
 ## I can't get this to work. I think the combined raster is too large
-## so it crashes R. This will run w/o crashing on my macbook. But the
-## result has a weird blank polygon in the center of the region.
+## so it crashes R.
 
 raster_files <- list.files("./output/counties/", full.names = TRUE)
-all_rasters <- lapply(raster_files, rast)
+all_rasters <- map(raster_files, rast)
 # cp_soils <- sprc(all_rasters) |>
 #   terra::merge()
 #
@@ -238,8 +240,52 @@ all_rasters <- lapply(raster_files, rast)
 # vrt function seems to work! Lose the band names and metadata, but
 # seems like that's lost anyways when importing to GEE.
 v <- terra::vrt(raster_files)
-plot(v)
 
+# Write combined raster for import into GEE
 writeRaster(v, paste0("output/cp_soils_vrt.tif"),
   overwrite = TRUE
+)
+
+# For paper supplementary information: plot RWEQ input factors
+
+# Assign names
+names(v) <- c(
+  "Sand (%)", "Silt (%)", "Clay (%)", "Calcium\nCarbonate (%)",
+  "Organic\nMatter (%)", "K Whole\nSoil Factor", "K Rock\nFree Factor",
+  "Wind Erodibility\nGroup", "Wind Erodibility\nIndex (tons/ac/yr)",
+  "T Factor\n(tons/ac/yr)", "Erodible\nFraction", "Soil Crust\nFactor"
+)
+
+# Plot all rasters
+plot(v,
+  axes = FALSE,
+  type = "continuous"
+)
+
+# Extract and plot EF and SCF
+ef <- v[[11]]
+scf <- v[[12]]
+
+plot(ef,
+  axes = FALSE,
+  col = colorspace::sequential_hcl(
+    n = 50,
+    h = c(0, -100),
+    c = c(80, NA, 40),
+    l = c(40, 75),
+    power = c(1, 1),
+    rev = TRUE
+  )
+)
+
+plot(scf,
+  axes = FALSE,
+  col = colorspace::sequential_hcl(
+    n = 50,
+    h = c(240, 130),
+    c = c(30, NA, 33),
+    l = c(25, 95),
+    power = c(1, NA),
+    rev = TRUE
+  )
 )
