@@ -36,7 +36,7 @@ if (!dir.exists(output_dir)) {
 # walk(psl_rasters, plot)
 
 # Monthly raster (one band per month) ------------
-psl_monthly <- drive_get("psl_monthly_2018.tif")
+psl_monthly <- drive_get("erosion/psl_monthly_2018.tif")
 drive_download(as_id(psl_monthly$id),
                file.path("data/psl/", psl_monthly$name),
                overwrite = TRUE)
@@ -56,7 +56,7 @@ panel(
 summary(psl_monthly)
 
 # Annual raster ----------
-psl_annual <- drive_get("psl_annual_2018.tif")
+psl_annual <- drive_get("erosion/psl_annual_2018.tif")
 drive_download(as_id(psl_annual$id),
                file.path("data/psl/", psl_annual$name),
                overwrite = TRUE)
@@ -68,7 +68,6 @@ names(psl_annual) <- "2018 Annual Sum"
 # Plot the raster
 plot(
   psl_annual,
-  main = expression("Potential Soil Loss in 2018 (kg/m"^2*")"),
   col = rev(colorspace::heat_hcl(50, h = c(36, 90))),
   axes = FALSE,
   type = "continuous"

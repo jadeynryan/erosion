@@ -12,29 +12,30 @@ if (!dir.exists(output_dir)) {
   dir.create(output_dir)
 }
 
-# List files in folder
-k_id <- drive_ls("erosion/k")
+# Get k raster
+k <- drive_get("erosion/k.tif")
 
-# Save each file to the folder created above
-walk2(k_id$id,
-      k_id$name,
-      \(x, y) drive_download(
-        as_id(x),
-        path = file.path("data/k", y),
-        overwrite = TRUE
-      ))
+drive_download(as_id(k$id),
+  file.path("data/psl/", k$name),
+  overwrite = TRUE
+)
 
-# Load files as raster collection
-raster_files <- list.files(output_dir, full.names = TRUE)
-k_rasters <- map(raster_files, rast)
+k <- rast(file.path("data/k/k.tif"))
 
-k <- terra::vrt(raster_files)
-
-# Plot the rasters
-plot(k, axes = FALSE)
-
-# Write combined raster
-writeRaster(k, paste0("output/k.tif"), overwrite = TRUE)
+# Plot
+plot(
+  k,
+  col = colorspace::sequential_hcl(
+    n = 40,
+    h = 0,
+    c = c(0, NA, NA), 
+    l = c(35, 100), 
+    power = 1.5, 
+    rev = TRUE
+  ),
+  axes = FALSE,
+  type = "continuous"
+)
 
 # Summary
 summary(k)
