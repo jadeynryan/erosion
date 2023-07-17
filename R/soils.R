@@ -139,8 +139,9 @@ get_soils <- function(sf, aoi) {
       clay = claytotal_r,
       om = om_r,
       caco3 = caco3_r
-    ))
-
+    )) |> 
+    mutate(ef = ifelse(ef < 0, 0, ef))
+  
   # Calculate SCF ------------------------------------------------
   calculate_scf <- function(clay, om) {
     (1 / (1 + 0.0066 * (clay)^2 + 0.021 * (om)^2))
