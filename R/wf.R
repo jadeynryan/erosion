@@ -16,13 +16,15 @@ if (!dir.exists(output_dir)) {
 wf_id <- drive_ls("erosion/wf")
 
 # Save each file to the folder created above
-walk2(wf_id$id,
-      wf_id$name,
-      \(x, y) drive_download(
-        as_id(x),
-        path = file.path("data/wf/", y),
-        overwrite = TRUE
-      ))
+walk2(
+  wf_id$id,
+  wf_id$name,
+  \(x, y) drive_download(
+    as_id(x),
+    path = file.path("data/wf/", y),
+    overwrite = TRUE
+  )
+)
 
 # Load files as raster collection
 wf_rasters <- map(list.files(output_dir, full.names = TRUE), rast)
@@ -47,3 +49,13 @@ panel(
 
 # Summary
 summary(wf)
+
+# Histogram
+par(
+  mfrow = c(3, 4),
+  mar = c(2, 1.5, 1.5, 1.5)
+)
+hist(wf,
+  col = "#6D3285", family = "serif",
+  xlab = NULL, ylab = NULL
+)

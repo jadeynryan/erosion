@@ -40,11 +40,21 @@ panel(
   col = colorspace::sequential_hcl(
     n = 40,
     h = c(140, 80),
-    c = c(50, NA, 10), 
-    l = c(40, 97), 
+    c = c(50, NA, 10),
+    l = c(40, 97),
     power = c(0.7, 1.8)
   )
 )
 
 # Summary
 summary(slrc)
+
+# Histogram
+par(
+  mfrow = c(3, 4),
+  mar = c(2, 1.5, 1.5, 1.5)
+)
+hist(slrc,
+  col = "#237A43", family = "serif",
+  xlab = NULL, ylab = NULL
+)

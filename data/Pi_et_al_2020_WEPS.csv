@@ -1,0 +1,28 @@
+﻿Station,Latitude(°N),Longitude(°E),Elevation(m),Soiltype,Landusetype,AECs,Soil_Loss
+McNary,45°58′,−119°15′,753,Loamy finesand,Corn,Irrigatedstable,8.8
+Triple‐S,46°12′,−119°30′,1491,Siltloam,Winterwheat,Grain‐fallowstable,0
+Station4,46°3′,−119°24′,1200,Siltloam,Winterwheat,Irrigatedstable,0
+Wheelhouse,46°1′,−119°31′,884,Siltloam,Corn,Irrigatedstable,0
+K2H,46°17′,−118°38′,1119,Siltloam,Corn,Irrigatedstable,0
+Touchet,46°1′,−118°40′,551,Siltloam,Fallow/idlecropland,Grain‐fallowstable,0
+PK_McClenny,46°21′,−118°48′,822,Very finesandyloam,Peas,Irrigatedstable,0
+Ringold,46°28′,−119°10′,875,Very finesandyloam,Corn,Irrigatedstable,0
+SmithCanyonEast,46°16′,−118°59′,514,Loamy finesand,Corn,Irrigatedstable,0
+PatersonWest,45°56′,−119°39′,591,Loamy finesand,Corn,Irrigatedstable,7.2
+BadgerCanyon,46°10′,−119°16′,660,Siltloam,Fallow/idlecropland,Grain‐fallowstable,0
+Lind,47°0′,−118°34′,1610,Finesandyloam,Fallow/idlecropland,Grain‐fallowstable,8.7
+Pullman,46°42′,−117°9′,2493,Siltloam,Winterwheat,Annualcropstable,8.1
+Ritzville,47°8′,−118°28′,1815,Siltloam,Winterwheat,Annualcroptransitionstable,0
+Anatone,46°12′,−117°6′,3101,Siltyclayloam,Winterwheat,Annualcroptransitionstable,0
+St.John,47°4′,−117°35′,2212,Siltloam,Winterwheat,Annualcroptransitionstable,4.6
+ConnellBench,46°42′,−118°54′,1120,Siltloam,Fallow/idlecropland,Annualcroptransitionstable,2.3
+McClure,46°22′,−119°43′,2425,Siltloam,Winterwheat,Grain‐fallowstable,0
+Hatton,46°47′,−118°51′,1290,Siltloam,Fallow/idlecropland,Irrigatedstable,0
+KonnowacPass,46°28′,−120°22′,868,Loam,Fallow/idlecropland,Grain‐fallowstable,0
+Wheeler,47°8′,−119°4′,1450,Siltloam,Springwheat,Irrigatedstable,0
+Mae,47°4′,−119°29′,1220,Loamy finesand,Onions,Irrigatedstable,0
+DesertAire,46°42′,−119°55′,608,Loamy finesand,Winterwheat,Irrigatedstable,0
+WardenGolf,46°55′,−119°7′,1240,Loamy finesand,Winterwheat,Irrigatedstable,0
+Broadview,46°58′,−120°30′,1492,Gravellyloam,Winterwheat,Annualcropstable,0
+MosesLake,47°0′,−119°14′,1115,Finesandyloam,Potatoes,Irrigatedstable,0
+Almira,47°52′,−118°53′,2650,Siltloam,Fallow/idlecropland,Transitionstable,1.5

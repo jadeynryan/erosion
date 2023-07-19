@@ -28,9 +28,9 @@ plot(
   col = colorspace::sequential_hcl(
     n = 40,
     h = 0,
-    c = c(0, NA, NA), 
-    l = c(35, 100), 
-    power = 1.5, 
+    c = c(0, NA, NA),
+    l = c(35, 100),
+    power = 1.5,
     rev = TRUE
   ),
   axes = FALSE,
